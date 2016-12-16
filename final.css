@@ -1,0 +1,351 @@
+/* Begin CSS Reset code */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+/* End CSS Reset code */
+
+html{
+}
+
+
+* {
+       margin: 0; 
+       padding: 0;
+     }
+body {
+      background-color: red
+}
+body2 {
+      background-color: white;
+}
+     div#banner { 
+       position:absolute; 
+       top: 0; 
+       left: 0; 
+       width: 100%; 
+        height: 100px;
+     }
+}
+     div#bannerright { 
+      width: 100%; 
+       padding-top: 30px;
+         padding-left: 50%;
+         color: white;
+        font-size: 70px;
+         float: right;
+         font-family: 'Montserrat',sans-serif;
+    
+     }
+     div#banner-content { 
+   
+       width: 50%;  
+       padding-top: 30px;
+         padding-left: 30px;
+         color: white;
+        font-size: 70px;
+         float: left;
+         font-family: 'Montserrat',sans-serif;
+    
+     }
+     div#main-content { 
+       padding-top: 100px;
+    }
+    div#big-font { 
+        font-size: 45px;
+        text-align: left;
+        color: whitesmoke;
+        font-family: 'Montserrat',sans-serif;
+        line-height: 175px;
+    
+    }
+    div#tiny-font { 
+        font-size: 30px;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Montserrat',sans-serif;
+        
+    
+    }
+ div#tiny-font2 { 
+        font-size: 18px;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Montserrat',sans-serif;
+     margin-left: 20%;
+     margin-right:20%;
+        
+        
+    
+    }
+#page.copy { 
+        
+        font-size: 24px;
+        text-align: center;
+        color: whitesmoke;
+        font-family: 'Montserrat',sans-serif;   
+        
+    }
+#content {
+  float: left ;
+  width: 80% ;
+}
+#navbar {
+  float: left ;
+  width: 20% ;
+}
+
+
+
+
+#container {
+    width:100%;
+    margin:20px auto;
+}
+
+#content {
+    float:left;
+    width:76%;
+ font-family: 'Montserrat',sans-serif;
+     color: White;
+        font-size: 70px;
+    padding-top: 30px;
+        padding-left:04%
+}
+
+
+#footer {
+    clear:both;
+}
+
+    }
+
+-----------------------------------------------------------------
+
+
+
+
+
+p.clear {
+    clear: both;
+}
+ 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+ 
+.fade-in {
+	opacity:0;  
+	-webkit-animation:fadeIn ease-in 1; 
+	-moz-animation:fadeIn ease-in 1;
+	animation:fadeIn ease-in 1;
+ 
+	-webkit-animation-fill-mode:forwards; 
+	-moz-animation-fill-mode:forwards;
+	animation-fill-mode:forwards;
+ 
+	-webkit-animation-duration:1s;
+	-moz-animation-duration:1s;
+	animation-duration:1s;
+}
+ 
+.fade-in.one {
+-webkit-animation-delay: 0.7s;
+-moz-animation-delay: 0.7s;
+animation-delay: 0.7s;
+}
+ 
+.fade-in.two {
+-webkit-animation-delay: 6s;
+-moz-animation-delay:6s;
+animation-delay: 3.1s;
+}
+ 
+.fade-in.three {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
+.fade-in.four {
+-webkit-animation-delay: 1.6s;
+-moz-animation-delay: 1.6s;
+animation-delay: 1.6s;
+}
+
+
+ 
+.box{
+position: relative;
+}
+
+.block{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 50px 50px;
+}
+
+
+#block1{
+    background-color:forestgreen;
+    color: white
+}
+#block2{
+    background-color:white;
+    color: forestgreen
+}
+#block3{
+    background-color:forestgreen;
+    color: white
+}
+#block4{
+    background-color:white;
+    color: forestgreen
+}
+#block5{
+    background-color:forestgreen;
+    color: white
+}
+#block6{
+    background-color:white;
+    color: forestgreen
+}
+#block7{
+    background-color:forestgreen;
+    color: white
+}
+#block8{
+    background-color:white;
+    color: forestgreen
+}
+#block9{
+    background-color:forestgreen;
+    color: white
+}
+#block10{
+    background-color:white;
+    color: forestgreen
+}
+#block11{
+    background-color:forestgreen;
+    color: white
+}
+#block12{
+    background-color:white;
+    color: forestgreen
+}
+#block13{
+    background-color:forestgreen;
+    color: white
+}
+#block14{
+    background-color:white;
+    color: forestgreen
+}
+#block15{
+    background-color:forestgreen;
+    color: white
+}
+#block16{
+    background-color:white;
+    color: forestgreen
+}
+#block17{
+    background-color:forestgreen;
+    color: white
+}
+#block18{
+    background-color:white;
+    color: forestgreen
+}
+#block19{
+    background-color:forestgreen;
+    color: white
+}
+#block20{
+    background-color:white;
+    color: forestgreen
+}
+#block21{
+    background-color:forestgreen;
+    color: white
+}
+#block22{
+    background-color:white;
+    color: forestgreen
+}
+#block23{
+    background-color:forestgreen;
+    color: white
+}
+#block24{
+    background-color:white;
+    color: forestgreen
+}
+#block25{
+    background-color:forestgreen;
+    color: white
+}
+
+
+
+
+
+
+#snow{
+	background: none;
+	font-family: Androgyne;
+	background-image: url('http://www.wearewebstars.dk/codepen/img/s1.png'), url('http://www.wearewebstars.dk/codepen/img//s2.png'), url('http://www.wearewebstars.dk/codepen/img//s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 10s linear infinite;
+	-moz-animation: snow 10s linear infinite;
+	-ms-animation: snow 10s linear infinite;
+	animation: snow 10s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
